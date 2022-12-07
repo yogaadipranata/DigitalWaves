@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital Waves</title>
+    <link rel="icon" href="asset/img/icon.png" type="image/icon type" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!--Font-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+    />
+    <!--Asset-->
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body id="home">
+    <!--Header / Navbar-->
+    <section id="header">
+      <nav class="navbar navbar-expand-lg navbar-light primary shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#home"> <img src="asset/img/logo.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top me-3" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item pe-4">
+                <a class="nav-link active text-third" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link active text-third" aria-current="page" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link active text-third" aria-current="page" href="#service">SERVICES</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link active text-third" aria-current="page" href="#work">PORTFOLIO</a>
+              </li>
+            </ul>
+            <div class="button me-5">
+              <a type="button" class="btn btn-orange text-primary" href="#contact">CONTACT US</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--Akhir Header / Navbar-->
+
+    <!--Jumbotron-->
+    <section id="jumbotron" class="mt-5 mb-3">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+          <div class="col-md-5">
+            <h1 class="fw-bold text-third"><span id="typed" class="typedAnimation"></span></h1>
+            <a type="button" class="btn btn-orange btn-lg mt-3 text-primary" id="btnJumbotron" href="#work">SEE OUR PORTFOLIO</a>
+          </div>
+          <div class="col-md-7 p-5">
+            <img src="./asset/img/jumbotron.png" class="img-fluid" alt="jumbotron" width="100%" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Jumbotron-->
+
+    <!--About Us-->
+    <section id="about">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-evenly mx-auto mt-5 text-third">
+          <div class="col-md-6">
+            <h2 class="fw-bold text-center">About Us</h2>
+            <hr class="mb-3 third" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-evenly mx-auto text-third">
+          <div class="col-md-7 p-5">
+            <img src="./asset/img/about.png" class="img-fluid" alt="about" width="90%" />
+          </div>
+          <div class="col-md-5">
+            <p class="fs-5">
+              Digital Waves merupakan perusahaan yang bergerak di bidang informasi teknologi. Kami menyediakan jasa di bidang pembuatan desain web atau aplikasi, pengembangan perangkat lunak, pengembangan web, desain grafis, dan jasa
+              lainnya di bidang informasi teknologi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir About Us-->
+
+    <!--Our Valuable Service-->
+    <section id="service" class="gradient">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-evenly mx-auto mt-5 mb-3 text-third">
+          <div class="col-md-6 text-center">
+            <h2 class="fw-bold">Our Services</h2>
+            <hr class="mb-3 third" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center mt-3">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container d-flex justify-content-center">
+                    <div class="row justify-content-center">
+                      <div class="col-md-4 mb-3">
+                        <div class="card h-100 feature shadow rounded-4 card-orange" style="max-width: 400px">
+                          <img src="asset/img/app.png" class="mx-auto d-block m-4 img-fluid" alt="App Development" width="73%" />
+                          <div class="card-body text-primary text-center">
+                            <h5 class="card-title fw-semibold">App Development</h5>
+                            <p class="card-text">
+                              App development adalah serangkaian proses dimulai dari pembuatan awal aplikasi, membuat prototype aplikasi, tahap implementasi, hingga pengujian akhir aplikasi yang menandakan aplikasi selesai dan siap untuk
+                              digunakan.
+                            </p>
+                            <button type="button" class="btn btn-primer mt-5" data-bs-toggle="modal" data-bs-target="#appModal">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card h-100 feature shadow rounded-4 card-orange" style="max-width: 400px">
+                          <img src="asset/img/web.png" class="mx-auto d-block m-4 img-fluid" alt="Web Development" width="50%" />
+                          <div class="card-body text-primary text-center">
+                            <h5 class="card-title fw-semibold">Web Development</h5>
+                            <p class="card-text">
+                              Web development atau pengembangan web, adalah sebuah proses pembangunan dan pemeliharaan situs web. Pekerjaan ini dilakukan di balik layar dengan tujuan untuk membuat situs web yang tampak apik, dan dapat
+                              bekerja dengan cepat.
+                            </p>
+                            <button type="button" class="btn btn-primer mt-5" data-bs-toggle="modal" data-bs-target="#webModal">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card h-100 feature shadow rounded-4 card-orange" style="max-width: 400px">
+                          <img src="asset/img/uiux.png" class="mx-auto d-block m-4 img-fluid" alt="UI/UX Design" width="92%" />
+                          <div class="card-body text-primary text-center">
+                            <h5 class="card-title fw-semibold">UI/UX Design</h5>
+                            <p class="card-text">
+                              User Interface (UI) dan User Experience (UX) merupakan komponen yang penting bagi sebuah website, aplikasi, maupun platform online lainnya. Kemampuan dalam mendesain UI/UX yang nyaman sangat dibutuhkan untuk
+                              memastikan suatu produk atau layanan memberikan pengalaman menyenangkan bagi pengguna.
+                            </p>
+                            <button type="button" class="btn btn-primer mt-6" data-bs-toggle="modal" data-bs-target="#uiuxModal">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="container d-flex justify-content-center">
+                    <div class="row justify-content-center">
+                      <div class="col-md-4 mb-3">
+                        <div class="card h-100 feature shadow rounded-4 card-orange" style="max-width: 400px">
+                          <img src="asset/img/desain.png" class="mx-auto d-block m-4 img-fluid" alt="Graphic Design" width="75%" />
+                          <div class="card-body text-primary text-center">
+                            <h5 class="card-title fw-semibold">Graphic Design</h5>
+                            <p class="card-text">
+                              Graphic Design adalah suatu bentuk komunikasi yang dilakukan secara visual. Graphic design akan memanfaatkan suatu gambar sebagai media dalam penyampaian pesan seefektif mungkin. Pembuatan graphic design
+                              menggunakan bantuan perangkat lunak pada komputer, seperti Adobe Illustrator.
+                            </p>
+                            <button type="button" class="btn btn-primer mt-3" data-bs-toggle="modal" data-bs-target="#graphicModal">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card h-100 feature shadow rounded-4 card-orange" style="max-width: 400px">
+                          <img src="asset/img/photo.png" class="mx-auto d-block m-4 img-fluid" alt="Photo Editing" width="65%" />
+                          <div class="card-body text-primary text-center">
+                            <h5 class="card-title fw-semibold">Photo Editing</h5>
+                            <p class="card-text">
+                              Photo editing pada dasarnya memiliki tujuan utama yakni meningkatkan atau mengubah warna pada sebuah foto, jadi foto yang telah diedit akan memiliki penampilan yang lebih baik atau lebih artistik. Photo editing
+                              akan berfokus pada warna, tone, dan saturasi.
+                            </p>
+                            <button type="button" class="btn btn-primer mt-4" data-bs-toggle="modal" data-bs-target="#photoModal">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card h-100 feature shadow rounded-4 card-orange" style="max-width: 400px">
+                          <img src="asset/img/video.png" class="mx-auto d-block m-4 img-fluid" alt="UI/UX Design" width="78%" />
+                          <div class="card-body text-primary text-center">
+                            <h5 class="card-title fw-semibold">Video Editing</h5>
+                            <p class="card-text">
+                              Video editing adalah proses manipulasi dan pengaturan pengambilan gambar video. Proses editing dilakukan dari yang sederhana seperti memotong dan menggabungkan gambar hingga melibatkan berbagai efek visual dan
+                              audio yang menghasilkan video dengan kompleksitas tinggi.
+                            </p>
+                            <button type="button" class="btn btn-primer mt-4" data-bs-toggle="modal" data-bs-target="#videoModal">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Our Valuable Service-->
+
+    <!--Our Works-->
+    <section id="work" class="third pt-1">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-evenly mx-auto mt-5 mb-3 text-primary">
+          <div class="col-md-6 text-center">
+            <h2 class="fw-bold">Our Portfolio</h2>
+            <hr class="mb-3 primary" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center mx-auto mt-3">
+          <div class="card mb-5 card-primary shadow" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="asset/img/converse.png" class="img-fluid rounded-start" alt="Converse" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 fw-bold">Converse Store</h5>
+                  <p class="card-text"><small class="text-muted">iOS | Android | Desktop | Web Development</small></p>
+                  <p class="card-text fs-5">Converse adalah sebuah perusahaan sepatu asal Amerika dengan hasil produksi yang terutama terdiri dari alas kaki berjenis olahraga dan brand Supreme gaya hidup.</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+                <div class="col-md-6 text-center">
+                  <a type="button" class="btn btn-orange text-primary btn-card text center mb-4" href="https://aschalzilham-finalproject1-hacktiv8.netlify.app/ " target="_blank">Go to Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-5 card-primary shadow" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 fw-bold">Laundry Labs</h5>
+                  <p class="card-text"><small class="text-muted">iOS | Android | Desktop | Web Development</small></p>
+                  <p class="card-text fs-5">
+                    Laundry Labs merupakan usaha yang bergerak di bidang jasa cuci dan setrika pakaian. Laundry Labs melayani pelayanan express, di mana waktu pengerjaan pesanan diselesaikan dalam hitungan jam dan sudah terjamin
+                    kualitasnya.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="asset/img/laundrylab.png" class="img-fluid rounded-start" alt="Laundry Labs" />
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+                <div class="col-md-6 text-center">
+                  <a type="button" class="btn btn-orange text-primary btn-card text center mb-4" href="https://warm-daffodil-a81740.netlify.app/" target="_blank">Go to Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-5 card-primary shadow" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="asset/img/amaranta.png" class="img-fluid rounded-start" alt="Amaranta" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 fw-bold">Amaranta</h5>
+                  <p class="card-text"><small class="text-muted">iOS | Android | Desktop | Web Development</small></p>
+                  <p class="card-text fs-5">Amaranta merupakan sebuah platform web yang membahas materi dan menyediakan tryout mengenai Ujian Tulis Berbasis Komputer (UTBK) untuk seleksi masuk Perguruan Tinggi Negeri (PTN).</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+                <div class="col-md-6 text-center">
+                  <a type="button" class="btn btn-orange text-primary btn-card text center mb-4" href="https://lustrous-empanada-5c5adf.netlify.app/" target="_blank">Go to Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-5 card-primary shadow" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 fw-bold">Personal Portfolio</h5>
+                  <p class="card-text"><small class="text-muted">iOS | Android | Desktop | Web Development</small></p>
+                  <p class="card-text fs-5">Personal portfolio merupakan portfolio digital yang digunakan untuk menunjukkan karya dan bakat mereka secara unik dan kepada audiens yang lebih luas.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="asset/img/selfportfolio.png" class="img-fluid rounded-start" alt="Portfolio" />
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+                <div class="col-md-6 text-center">
+                  <a type="button" class="btn btn-orange text-primary btn-card text center mb-4" href="https://yogaadipranata.github.io/" target="_blank">Go to Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-5 card-primary shadow" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="asset/img/poster.png" class="img-fluid rounded-start" alt="Poster" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 fw-bold">Poster Design</h5>
+                  <p class="card-text"><small class="text-muted">Poster Design Competition | Graphic Design</small></p>
+                  <p class="card-text fs-5">Kami juga pernah mengikuti poster design competition tingkat nasional dan meraih juara 1. Kami membuat poster dengan tema Sustainable Development Goals (SDGs).</p>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+                <div class="col-md-6 text-center">
+                  <a type="button" class="btn btn-orange text-primary btn-card text center mb-4" href="#">Go to Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-5 card-primary shadow" style="max-width: 800px">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 fw-bold">T-Shirt Design</h5>
+                  <p class="card-text"><small class="text-muted">Ordered Design | Graphic Design</small></p>
+                  <p class="card-text fs-5">Membuat artwork dan desain t-shirt untuk sebuah event. Dengan desain yang minimalis dan elegan, tentu saja membuat t-shirt lebih menarik untuk dilihat.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="asset/img/baju.png" class="img-fluid rounded-start" alt="T-Shirt" />
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+                <div class="col-md-6 text-center">
+                  <a type="button" class="btn btn-orange text-primary btn-card text center mb-4" href="#">Go to Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row d-flex align-items-center justify-content-evenly mx-auto">
+            <div class="col-md-6 text-center">
+              <a type="button" class="btn btn-orange btn-lg text-primary mb-5" href="#work">SEE OUR PORTFOLIO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Our Works-->
+
+    <!--Contact & Newsletter-->
+    <section id="contact">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-evenly mx-auto mt-5">
+          <div class="col-md-6">
+            <h3>Apakah anda memerlukan bantuan?</h3>
+            <h1 class="fw-bold text-third">Kami siap <span class="text-orange"> mendengarkan </span> pertanyaan, saran, dan kritik dari anda!</h1>
+          </div>
+          <div class="col-md-6">
+            <form id="formContact" onsubmit="return false">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="name@example.com" name="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" aria-describedby="subject" placeholder="Question about your article" name="subject" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" name="message" placeholder="Masukkan pesan anda di sini" required></textarea>
+              </div>
+              <div class="mb-3">
+                <button type="submit" id="btnSend" class="btn btn-orange btn-lg btn-send w-100">Send a Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Contact & Newsletter-->
+
+    <!--Footer-->
+    <section id="footer">
+      <footer class="third mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-primary">
+              <p class="mt-2">Copyright ©2022 all right by Aschal Zilham & I Wayan Yoga Adi Pranata</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!--Akhir Footer-->
+
+    <!--Button Back To Top-->
+    <button type="button" id="btnTop" class="btn btn-orange btnTop"><span class="fa fa-angle-up"></span></button>
+    <!--Akhir Button To Top-->
+
+    <!--Modal-->
+    <div class="modal fade" id="appModal" tabindex="-1" aria-labelledby="appModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-center modal-primary">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="appModalLabel">App Development</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-6">
+                  <img src="asset/img/app.png" class="mx-auto d-block m-4 img-fluid" alt="App Development" width="" />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-12 text-center">
+                  <h5 class="fw-semibold">App Development</h5>
+                  <p class="fs-5">
+                    App development adalah serangkaian proses dimulai dari pembuatan awal aplikasi, membuat prototype aplikasi, tahap implementasi, hingga pengujian akhir aplikasi yang menandakan aplikasi selesai dan siap untuk digunakan.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="webModal" tabindex="-1" aria-labelledby="webModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-center modal-primary">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="webModalLabel">Web Development</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-6">
+                  <img src="asset/img/web.png" class="mx-auto d-block m-4 img-fluid" alt="App Development" width="" />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-12 text-center">
+                  <h5 class="fw-semibold">Web Development</h5>
+                  <p class="fs-5">
+                    Web development atau pengembangan web, adalah sebuah proses pembangunan dan pemeliharaan situs web. Pekerjaan ini dilakukan di balik layar dengan tujuan untuk membuat situs web yang tampak apik, dan dapat bekerja dengan
+                    cepat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="uiuxModal" tabindex="-1" aria-labelledby="uiuxModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-center modal-primary">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="uiuxModalLabel">UI/UX Design</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-6">
+                  <img src="asset/img/uiux.png" class="mx-auto d-block m-4 img-fluid" alt="App Development" width="" />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-12 text-center">
+                  <h5 class="fw-semibold">UI/UX Design</h5>
+                  <p class="fs-5">
+                    User Interface (UI) dan User Experience (UX) merupakan komponen yang penting bagi sebuah website, aplikasi, maupun platform online lainnya. Kemampuan dalam mendesain UI/UX yang nyaman sangat dibutuhkan untuk memastikan
+                    suatu produk atau layanan memberikan pengalaman menyenangkan bagi pengguna.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="graphicModal" tabindex="-1" aria-labelledby="graphicModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-center modal-primary">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="graphicModalLabel">Graphic Design</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-6">
+                  <img src="asset/img/desain.png" class="mx-auto d-block m-4 img-fluid" alt="App Development" width="" />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-12 text-center">
+                  <h5 class="fw-semibold">Graphic Design</h5>
+                  <p class="fs-5">
+                    Graphic Design adalah suatu bentuk komunikasi yang dilakukan secara visual. Graphic design akan memanfaatkan suatu gambar sebagai media dalam penyampaian pesan seefektif mungkin. Pembuatan graphic design menggunakan
+                    bantuan perangkat lunak pada komputer, seperti Adobe Illustrator.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-center modal-primary">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="photoModalLabel">Photo Editing</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-6">
+                  <img src="asset/img/photo.png" class="mx-auto d-block m-4 img-fluid" alt="App Development" width="" />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-12 text-center">
+                  <h5 class="fw-semibold">Photo Editing</h5>
+                  <p class="fs-5">
+                    Photo editing pada dasarnya memiliki tujuan utama yakni meningkatkan atau mengubah warna pada sebuah foto, jadi foto yang telah diedit akan memiliki penampilan yang lebih baik atau lebih artistik. Photo editing akan
+                    berfokus pada warna, tone, dan saturasi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-center modal-primary">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="videoModalLabel">Video Editing</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-6">
+                  <img src="asset/img/video.png" class="mx-auto d-block m-4 img-fluid" alt="App Development" width="" />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row d-flex align-items-center justify-content-center mx-auto">
+                <div class="col-md-12 text-center">
+                  <h5 class="fw-semibold">Video Editing</h5>
+                  <p class="fs-5">
+                    Video editing adalah proses manipulasi dan pengaturan pengambilan gambar video. Proses editing dilakukan dari yang sederhana seperti memotong dan menggabungkan gambar hingga melibatkan berbagai efek visual dan audio yang
+                    menghasilkan video dengan kompleksitas tinggi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Akhir Modal-->
+  </body>
+
+  <!--Script-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="asset/js/script.js"></script>
+</html>

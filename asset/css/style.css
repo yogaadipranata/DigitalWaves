@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
+body {
+  font-family: "Basic", sans-serif;
+  background-color: #f5f3ee;
+}
+
+.primary {
+  background-color: #f5f3ee;
+}
+
+.secondary {
+  background-color: #e1895d;
+}
+
+.third {
+  background-color: #1b383a;
+}
+
+.gradient {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #f5f3ee 55%, #1b383a 55%);
+}
+
+.text-third {
+  color: #1b383a !important;
+}
+
+.text-primary {
+  color: #f5f3ee !important;
+}
+
+.text-orange {
+  color: #e1895d !important;
+}
+
+.btn-orange {
+  background-color: #e1895d !important;
+  border: none !important;
+  color: #f5f3ee !important;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.btn-orange:hover {
+  background-color: #e06c32 !important;
+}
+
+.card-orange {
+  background-color: #e1895d !important;
+  border-color: #e1895d !important;
+  color: #f5f3ee;
+  border-width: 3px;
+}
+
+.btn-primer {
+  border: 2px solid #f5f3ee !important;
+  color: #f5f3ee !important;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.btn-primer:hover {
+  background-color: #f5f3ee !important;
+  color: #1b383a !important;
+}
+
+.mt-6 {
+  margin-top: 0.3 rem;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: #e1895d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.card-primary {
+  background-color: #f5f3ee !important;
+  border-color: #f5f3ee !important;
+  color: #1b383a !important;
+  border-width: 3px;
+  border-radius: 30px;
+}
+
+.btnTop {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  right: 10px;
+}
+
+.modal-primary {
+  background-color: #f5f3ee !important;
+  border-color: #f5f3ee !important;
+  color: #1b383a !important;
+  border-width: 3px;
+  border-radius: 30px;
+}
+
+#btnJumbotron {
+  position: relative;
+  margin-top: 2rem;
+}
+
+section {
+  scroll-margin-top: 5rem;
+}
+
+.btn-card {
+  width: 150px;
+}
