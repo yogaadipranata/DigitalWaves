@@ -20,7 +20,7 @@ Digital Waves is a web-based landing page developed for Final Project 3 in the W
 
 ### 🔗 Live Demo
 You can access the live version of the website here:  
-[https://amarantalearn.netlify.app/](https://digitalwaves.netlify.app/)
+[https://digitalwaves.netlify.app/](https://digitalwaves.netlify.app/)
 
 
 ## 🤝 Contributing Guidelines
